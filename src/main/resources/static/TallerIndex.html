@@ -1,11 +1,90 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Pagina Principal Taller</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/styles.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        
+        <header class="header">
+            <nav class="nav">
+                <a href="TallerIndex.html" class="logo nav-link" href="index.html"> Taller Memo </a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="TallerIndex.html">&LeftTriangleBar;</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="servicios.html">Servicios</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="agende.html">Agende su cita</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="galeria.html">Galeria</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="recomendados.html">Recomendados</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="contactenos.html">Contactenos</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="acerca.html">Acerca de Nosotros</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="redes.html">Redes</a></li>
+                </ul>
+
+
+            </nav>
+
+        </header>
+
+        <section id="contenido">
+            <h1 class="titulo_bienvenida">BIENVENIDO A <br>TALLER MEMO</h1>
+            <p class="parrafos">Bienvenido a su mejor opción para reparar su vehiculo, en <strong>TALLER MEMO</strong> ofrecemos multiples servicios al cliente
+                como llantas, aceites, frenos, entre otras varias opciones</p>
+
+            <h3 font-family: sans-serif
+                font-size: 20px>Algunos de nuestro trabajos</h3>
+            <ol class="listaIndex">
+                <li> 240Z</li>
+                <img src="Imagenes\240z.jpg" 
+                     alt="Un Nissan 240z con fondo blanco" title="Nissan 240z"
+                     width="300" />
+                <br>
+                <li> 300ZX</li>
+                <img src="Imagenes\300zx.jpg" 
+                     alt="Un Nissan 300zx con fondo blanco" title="Nissan 300zx"
+                     width="300" />
+                <br>
+                <li> 350Z</li>
+                <img src="Imagenes\350z.jpg" 
+                     alt="Un Nissan 350z con fondo blanco" title="Nissan 350z"
+                     width="300" />
+                <br>
+                <li> 370Z</li>
+                <img src="Imagenes\370z.jpg" 
+                     alt="Un Nissan 370z con fondo blanco" title="Nissan 370z"
+                     width="300" />
+                <br>
+                <li> Z 2023</li>
+                <img src="Imagenes\z 2023.jpg" 
+                     alt="Un Nissan Z 2023 con fondo blanco" title="Nissan Z 2023"
+                     width="300" />
+                <br>
+                
+            </ol>
+
+            <hr/>
+
+            
+            <form class="formulario">
+                <h3     font-family: sans-serif; font-size: 20px;>¿Cual es tu favorito?</h3>
+                <p>
+                    <label for="nombre"> Nombre</label>
+                    <input type="text" name="nombre" 
+                           placeholder="Escribe el nombre aqui"/>
+                </p>
+
+                <h3>¿Clasicos o Modernos?</h3>
+                <input type="radio" name="antiguedad" value="clasicos"> 
+                Clasicos <br/>
+                <input type="radio" name="antiguedad" value="moderno"> 
+                Modernos <br/>
+                <br/>
+                <input type="submit" value="Enviar Formulario" />
+
+            </form>
+            
+            <br/>
+            <footer class="footer">Derechos reservados por Taller Memo & Chappy.Inc</footer>
+        </section>
     </body>
 </html>
